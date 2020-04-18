@@ -1,0 +1,30 @@
+html{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: lightgray;
+    background-color: #222831;
+}
+
+body{
+    text-align: center;
+}
+
+.controls{
+    margin-bottom: 20px;
+}
+
+:root{
+    --base:#ffc600;
+    --spacing:10px;
+    --blur: 10px;
+}
+
+img{
+    padding: var(--spacing);
+    background-color: var(--base);
+    filter: blur(var(--blur));
+}
+
+.h1{
+    color: var(--base);
+}
+
